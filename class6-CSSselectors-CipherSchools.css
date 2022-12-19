@@ -1,0 +1,53 @@
+/* Universal Selector*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* This is a paragraph styling */
+p {
+    color: #2fbaa9;
+    background-color: #ded6c8
+    /* Absolute units */
+    width: 70vw;
+    /*Relative units */
+    width: 70vw;
+    /*The numbered values with no units*/
+    margin: 0;
+    line-height: 1.2;
+
+}
+
+div {
+    /*Function Values*/
+    transform: roate(0deg);
+    width: calc(100% - 20px);
+    background-image: url("/assests/small.jpg");
+
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+    color: blue;
+}
+
+/* Class Selector */
+.heading {
+    background-color: #000;
+
+
+}
+
+/* ID Selector */
+#one {
+    font-size: 30px;
+}
+
+/* Desendant Selector */
+.div p {
+    font-size: 50px;
+}
